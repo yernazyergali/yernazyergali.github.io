@@ -2,7 +2,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 280vh;
+    /*height: 270vh;*/
     background-color: #ffc9de;
     color: #5e5249;
     font-family: "HelveticaNeueCyr,Helvetica Neue,Helvetica,Arial",sans-serif;
