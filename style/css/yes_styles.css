@@ -2,8 +2,11 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    background-color: #ea8ab3;
+    height: 120vh;
+    /*background-color: #ea8ab3;*/
+    background-color: #f6eddd;
+    color: #5e5249;
+    font-family: "HelveticaNeueCyr,Helvetica Neue,Helvetica,Arial",sans-serif;
 }
 
 /* Position the "No" button absolutely within body */
@@ -24,7 +27,8 @@ body {
     font-family: 'Nunito';
     font-size: 50px;
     font-weight: bold;
-    color: white;
+    color: #5e5249;
+    font-family: "HelveticaNeueCyr,Helvetica Neue,Helvetica,Arial",sans-serif;
     text-align: center;
     margin-top: 20px;
     margin-bottom: 0px;
@@ -34,7 +38,8 @@ body {
     font-family: 'Nunito';
     font-size: 25px;
     font-weight: bold;
-    color: white;
+    color: #5e5249;
+    font-family: "HelveticaNeueCyr,Helvetica Neue,Helvetica,Arial",sans-serif;
     text-align: center;
     margin-top: 20px;
     margin-bottom: 0px;
@@ -52,7 +57,7 @@ body {
 
 .btn {
     background-color: #FFB6C1;
-    color: white;
+    /*color: white;*/
     padding: 15px 32px;
     text-align: center;
     display: inline-block;

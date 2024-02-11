@@ -7,24 +7,20 @@
     <body>
         <div class="container">
             <div >
-                <h1 class = "header_text">Mi alma do you pass exam tomorrow?</h1>
+                <h1 class = "header_text">Daniya will you be my valentine?</h1>
             </div>
             <div class="gif_container">
-                <img src="https://media.tenor.com/b-IqdISauo8AAAAi/hasher-happy-sticker.gif" alt="Cute">
+                <img style="width: 300px;" src="https://media1.tenor.com/m/DZmldC3h2oMAAAAd/cute-face-puss.gif" alt="Cute">
             </div>
             <div class = "buttons">
-                <button class="btn" id = "yesButton" onclick="nextPage()">Yes!!!!</button>
-                <button class="btn" id="noButton" onmouseover="moveButton()">maybe</button>
+                <button class="btn" id = "yesButton" onclick="nextPageYes()">Yes!!!</button>
+                <button class="btn" id="noButton" onclick="nextPageNo()">No!</button>
                 <script>
-                    function nextPage() {
+                    function nextPageYes() {
                         window.location.href = "yes.html";
                     }
-                    
-                    function moveButton() {
-                        var x = Math.random() * (window.innerWidth - document.getElementById('noButton').offsetWidth);
-                        var y = Math.random() * (window.innerHeight - document.getElementById('noButton').offsetHeight);
-                        document.getElementById('noButton').style.left = `${x}px`;
-                        document.getElementById('noButton').style.top = `${y}px`;
+                    function nextPageNo() {
+                        window.location.href = "no.html";
                     }
                 </script> 
             </div>
