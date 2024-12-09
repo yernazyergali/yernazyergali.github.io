@@ -3,15 +3,14 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #ffc9de;
-    color: #5e5249;
-    font-family: "HelveticaNeueCyr,Helvetica Neue,Helvetica,Arial",sans-serif;
+    /*background-color: #F8C8DC;*/
+    background-color: #156868;
 }
 
 /* Position the "No" button absolutely within body */
 #noButton {
     position: absolute;
-    margin-left: 100px;
+    margin-left: 150px;
     transition: 0.5s;
     /* Smooth movement */
 }
@@ -27,7 +26,6 @@ body {
     font-size: 50px;
     font-weight: bold;
     color: white;
-    font-family: "HelveticaNeueCyr,Helvetica Neue,Helvetica,Arial",sans-serif;
     text-align: center;
     margin-top: 20px;
     margin-bottom: 0px;
@@ -44,9 +42,8 @@ body {
 }
 
 .btn {
-    background-color: #FFB6C1;
+    background-color: #931225;
     color: white;
-    font-family: "HelveticaNeueCyr,Helvetica Neue,Helvetica,Arial",sans-serif;
     padding: 15px 32px;
     text-align: center;
     display: inline-block;
@@ -67,5 +64,4 @@ body {
     justify-content: center;
     align-items: center;
     margin-left: -11px;
-    margin-top: 20px;
 }
