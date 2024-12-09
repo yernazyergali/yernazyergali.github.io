@@ -65,3 +65,14 @@ body {
     align-items: center;
     margin-left: -11px;
 }
+
+
+.text {
+    font-family: 'Nunito';
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
